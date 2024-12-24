@@ -365,4 +365,7 @@ text-align: center;
     height: 160px;
   
   }
+  .user-name{
+    font-size: 14px;
+  }
 }
