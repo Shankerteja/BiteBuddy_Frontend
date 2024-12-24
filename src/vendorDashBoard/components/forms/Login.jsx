@@ -30,9 +30,9 @@ const Login = (props) => {
       }
       const vendorId=data.vendorId;
       const username=data.vendorName
-      console.log(username)
+     
       Cookies.set('Username', username, {expires: 1});
-      console.log(vendorId)
+ 
       const responseVendor=await fetch(`${API_URL}/vendor/vendor/${vendorId}`);
       if(response.ok){
         const firmData=await responseVendor.json()
