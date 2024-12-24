@@ -124,6 +124,7 @@ flex-direction: column;
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #908b8b;
+  font-family: sans-serif;
 
 }
 .register-container form div label{
@@ -167,6 +168,7 @@ width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
   border: 1px solid #908b8b;
+  font-family: sans-serif;
 }
 .add-firm-container {
   width: 600px;
@@ -219,6 +221,7 @@ width: 100%;
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #908b8b;
+  font-family: sans-serif;
 }
 .bestseller-container{
   display: flex;
